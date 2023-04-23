@@ -18,7 +18,7 @@ function Cards({ setData, data }) {
 
     return (
         <div className='pt-20 px-4 w-full h-full'>
-            <div className="max-w-6xl flex flex-wrap gap-20 items-center justify-center">
+            <div className="max-w-6xl flex flex-wrap gap-20 items-center justify-center mx-auto">
                 {data.map((item) => {
                     return (
                         <div key={item.id} className="select-none relative w-80 text-2xl border-2 rounded-md flex flex-col items-center gap-2 py-6 shadow-lg hover:scale-[1.02] active:shadow-inner transition-transform duration-100 hover:shadow-2xl shadow-gray-600">
